@@ -1,8 +1,87 @@
-.banner-bg{
+.banner-bg {
     background-image: url('../../img/Background.jpg');
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 700px;
+}
+
+.logo {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+
+.broder-line {
+    border: 2px solid wheat;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Rosario", "Open Sans", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fcface;
+    width: 350px;
+    display: inline-block;
+    font-size: 45px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+
+@media only screen and (max-width: 668px) {
+    .logo {
+        width: 200px;
+        height: 100%;
+        position: relative;
+        top: 250px;
+        left: 80px;
+    }
+
+    .broder-line {
+        width: 300px;
+        position: relative;
+        top: 270px;
+        left: 40px;
+    }
+
+    .title {
+        position: relative;
+        top: 330px;
+        left: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .logo {
+        width: 300px;
+        height: 100%;
+        position: relative;
+        top: 250px;
+        left: 270px;
+    }
+
+    .broder-line {
+        width: 400px;
+        position: relative;
+        top: 270px;
+        left: 240px;
+    }
+
+    .title {
+        position: relative;
+        top: 400px;
+        left: 270px;
+    }
 }
