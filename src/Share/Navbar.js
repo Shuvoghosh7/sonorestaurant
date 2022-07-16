@@ -3,22 +3,10 @@ import '../Pages/Style/Navber.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            {/* <ul>
-         
-                    <li><a href="">Home</a></li>
-                    <li><a href="">MENU</a></li>
-                    <li><a href="">TEPPANYAKI</a></li>
-                    <li><a href="">EVENTS & PRIVATE DINING</a></li>
-                    <li><a href="">GIFT CARDS</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li><a href=""> RESERVATIONS</a></li>
-              
-            </ul> */}
-
             <a href="">
                 <div className='manu-item'>Home</div>
             </a>
-            <a href="">
+            <a href="#menu">
                 <div className='manu-item'>MENU</div>
             </a>
             <a href="">
