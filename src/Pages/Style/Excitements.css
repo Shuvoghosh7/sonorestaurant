@@ -9,6 +9,10 @@
     margin-left: 50px;
     cursor: pointer;
 }
+.ex-button:hover{
+  background-color: #583930;
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 668px) {
   .ex-button{

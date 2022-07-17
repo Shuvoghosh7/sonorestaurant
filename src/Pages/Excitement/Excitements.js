@@ -5,7 +5,7 @@ import slider3 from '../../img/parit-2/img3.jpg'
 import '../../Pages/Style/Excitements.css'
 const Excitements = () => {
     return (
-        <div className='grid lg:grid-cols-2 md:grid-cols-1'>
+        <div id='teppanyaki' className='grid lg:grid-cols-2 md:grid-cols-1'>
             <div className='slider-frame'>
                 <div class="container">
                     <div class="wrapper">
