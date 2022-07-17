@@ -2,7 +2,7 @@ import React from 'react';
 import '../../Pages/Style/Contact.css'
 const Contact = () => {
     return (
-        <div className='grid lg:grid-cols-2 gap-2 mt-12'>
+        <div className='grid lg:grid-cols-2 gap-2 mt-12 mb-6' id='contact'>
             <div className='address'>
                 <div className='address-info'>
                     <div className='info'>
@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                     <div className='parking'>
                         <p className='text-3xl font-bold mb-5'>Parking</p>
-                        <p className='text-2xl text-justify mr-20'>Visitors to Sono Japanese Restaurant can enjoy the shared basement parking of Portside Wharf. Please be sure to bring your parking ticket to the restaurant for 3 hours of parking validation.Please note Friday and Saturday evenings can be very busy at the precinct so we suggest allowing additional time to find parking.</p>
+                        <p className='text-2xl text-justify mr-20 mb-20'>Visitors to Sono Japanese Restaurant can enjoy the shared basement parking of Portside Wharf. Please be sure to bring your parking ticket to the restaurant for 3 hours of parking validation.Please note Friday and Saturday evenings can be very busy at the precinct so we suggest allowing additional time to find parking.</p>
                     </div>
                 </div>
 

@@ -1,0 +1,19 @@
+
+.location{
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.location:hover .image{
+    transform: scale(1.3) ;
+    transition: transform 3s ease-in ;
+    
+}
+
+@media only screen and (max-width: 668px) {
+   
+    
+}

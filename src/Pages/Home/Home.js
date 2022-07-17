@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import Excitements from '../Excitement/Excitements';
 import GiftCards from '../GiftCards/GiftCards';
+import Location from '../Location/Location';
 import Memories from '../Memories/Memories';
 import Menu from '../Menu/Menu';
 import Program from '../PROGRAM/Program';
@@ -21,6 +22,7 @@ const Home = () => {
             <GiftCards/>
             <Program/>
             <Contact/>
+            <Location/>
         </div>
     );
 };
