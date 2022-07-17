@@ -1,0 +1,50 @@
+.program-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+    height: 100%;
+}
+
+.pro-button {
+    background-color: #320c01;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.pro-button:hover {
+    background-color: #583930;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 668px) {
+    .program-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+    }
+
+    .pro-button {
+        position: relative;
+        left: 30px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .program-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+    }
+
+    .pro-button {
+        position: relative;
+        left: 80px;
+    }
+}
