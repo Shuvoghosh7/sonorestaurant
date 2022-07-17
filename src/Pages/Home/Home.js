@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
 import Excitements from '../Excitement/Excitements';
 import GiftCards from '../GiftCards/GiftCards';
 import Memories from '../Memories/Memories';
@@ -19,6 +20,7 @@ const Home = () => {
             <Memories/>
             <GiftCards/>
             <Program/>
+            <Contact/>
         </div>
     );
 };
