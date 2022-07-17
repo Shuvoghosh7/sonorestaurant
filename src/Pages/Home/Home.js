@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Share/Footer';
 
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
@@ -23,6 +24,7 @@ const Home = () => {
             <Program/>
             <Contact/>
             <Location/>
+            <Footer/>
         </div>
     );
 };
