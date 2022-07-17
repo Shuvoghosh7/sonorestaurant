@@ -7,7 +7,7 @@ import '../../Pages/Style/Tradition.css'
 
 const Tradition = () => {
     return (
-        <div className='grid lg:grid-cols-2'>
+        <div className='grid lg:grid-cols-2 md:grid-cols-1'>
             <div className='tradition flex justify-center items-center'>
                 <div className='text'>
                     <h1 className='text-heading'>EXPERIENCE THE</h1>
