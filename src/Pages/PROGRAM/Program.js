@@ -11,9 +11,9 @@ const Program = () => {
                     <h1 className='text-center text-4xl font-bold mb-5'>SONO SAKURU</h1>
                     <h2 className='text-center text-3xl font-bold mb-6'>LOYALTY PROGRAM</h2>
                     <h3 className='text-center text-3xl leading-10 mb-20'>Exclusive rewards for Sono's most loyal <br/> customers</h3>
-                    <div className='lg:flex justify-center items-center'>
-                        <p className='pro-button'><a href="">BOOK NOW</a></p>
+                    <div className='flex justify-center items-center'>
                         <p className='pro-button'><a href="">Enquire Now</a></p>
+                        <p className='pro-button'><a href="https://www.sonorestaurant.com.au/wp-content/uploads/2020/03/Sono-Sakuru.pdf">Program</a></p>
                     </div>
                 </div>
             </div>

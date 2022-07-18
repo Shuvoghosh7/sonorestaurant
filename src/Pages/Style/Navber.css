@@ -9,12 +9,9 @@
 }
 .navbar a .manu-item {
     display: inline-block;
-    font-size: 24px;
+    font-size: 15px;
     color: #fcface;
-    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.5px;
     margin-left: 10px;
     margin-right: 10px;
 }

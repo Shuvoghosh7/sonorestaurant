@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <div className='footer lg:flex md:flex justify-between items-center'>
             <div className='lg:mx-20'>
-                <p className='text-5xl font-bold mb-5 mt-12'><a href="">Portside Wharf</a></p>
-                <address className='text-3xl leading-10'>
+                <p className='text-3xl font-bold mb-5 mt-12'><a href="">Portside Wharf</a></p>
+                <address className='text-lg leading-10'>
                     Level 1, Portside Wharf, 39 <br /> Hercules St <br />
                     Hamilton QLD 4007 <br />
                     (opposite Dendy Cinemas) <br />

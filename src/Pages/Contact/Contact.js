@@ -48,19 +48,19 @@ const Contact = () => {
                         <form>
                             <div>
                                 <label>Name <sup>*</sup> </label>
-                                <input className='lg:ml-32' type="text" name="" id="" required/>
+                                <input className='lg:ml-[120px] md:ml-[35px]' type="text" name="" id="" required/>
                             </div>
                             <div className='mt-5'>
                                 <label>Phone</label>
-                                <input className='lg:ml-36' type="text" name="" id="" />
+                                <input className='lg:ml-[133px] md:ml-[48px]' type="text" name="" id="" />
                             </div>
                             <div className='mt-5'>
                                 <label>Email <sup>*</sup> </label>
-                                <input className='lg:ml-32' type="email" name="" id="" required/>
+                                <input className='lg:ml-[126px] md:ml-[40px]' type="email" name="" id="" required/>
                             </div>
                             <div className='mt-5'>
-                                <label>Email <sup>*</sup> </label>
-                                <textarea className='lg:ml-32' name="" id="" cols="65" rows="8" required></textarea>
+                                <label>Comments<sup>*</sup> </label>
+                                <textarea className='lg:ml-[80px]md:ml-[80px]' name="" id="" cols="32" rows="5" required></textarea>
                             </div>
                             
                             <div className='mt-12'>

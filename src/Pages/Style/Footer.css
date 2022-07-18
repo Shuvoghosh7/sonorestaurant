@@ -1,17 +1,17 @@
 .footer{
     background-color: #320c01;
     color: white;
-    padding: 80px;
+    padding: 30px;
 }
 .icon1{
-    font-size: 80px;
+    font-size: 30px;
     background-color: white;
     color: #320c01;
     padding: 20px;
     border-radius: 50px;
 }
 .icon2{
-    font-size: 80px;
+    font-size: 30px;
     background-color: white;
     color: #320c01;
     padding: 20px;
@@ -26,6 +26,7 @@
     }
     .footer-icon{
       margin-top: 30px;
+      margin-left: 50px;
     
     }
     
