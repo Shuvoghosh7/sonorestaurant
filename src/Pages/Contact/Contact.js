@@ -60,7 +60,7 @@ const Contact = () => {
                             </div>
                             <div className='mt-5'>
                                 <label>Comments<sup>*</sup> </label>
-                                <textarea className='lg:ml-[80px]md:ml-[80px]' name="" id="" cols="32" rows="5" required></textarea>
+                                <textarea className='lg:ml-[86px] md:ml-[2px]' name="" id="" cols="27" rows="5" required></textarea>
                             </div>
                             
                             <div className='mt-12'>

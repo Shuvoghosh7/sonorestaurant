@@ -6,6 +6,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 10;
+    scroll-behavior: smooth;
 }
 .navbar a .manu-item {
     display: inline-block;

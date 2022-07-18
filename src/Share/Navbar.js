@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../Pages/Style/Navber.css'
 const Navbar = () => {
     return (
-        <div className='navbar'>
+        <div className='navbar scroll-smooth'>
             <a href="/">
                 <div className='manu-item'>HOME</div>
             </a>
